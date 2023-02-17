@@ -4,7 +4,7 @@ from typing import Tuple, List
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
-    """Applying necessary type changes thanks to 'mypy'"""
+    """Applying necessary type changes thanks to 'mypy' type checker"""
     zoomed_in: List = [
         item for item in lst
         for i in range(factor)
