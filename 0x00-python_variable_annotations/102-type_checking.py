@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Using 'mypy' to validate Type checking"""
 
 from typing import Tuple, List
