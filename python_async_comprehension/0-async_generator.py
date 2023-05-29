@@ -5,6 +5,7 @@ from asyncio import sleep
 from random import uniform
 from typing import Generator
 
+
 async def async_generator() -> Generator[float, None, None]:
     """This coroutine will loop 10 times, each time asynchronously
     wait 1 second, then yield a random number between 0 and 10."""
